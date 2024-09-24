@@ -98,6 +98,12 @@ main ul li {
     font-size: .9rem;
 }
 
+main ol li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
 main address {
     font-style: normal;
     background-color: #ded1c1;
