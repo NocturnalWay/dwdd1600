@@ -191,6 +191,7 @@ div.gallery figcaption {
 }
 .form textarea {
     height: 6rem;
+    width: 5rem;
 }
 /* Footer Stuff */
 footer {
