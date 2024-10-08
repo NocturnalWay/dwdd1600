@@ -166,15 +166,15 @@ div.gallery figcaption {
 .form label {
     margin: .5rem;
 }
-.form label, .form select, .myform [type=text], .form [type=tel] {
+.form label, .form select, .myform [type=text], .form [type=tel], .form [type=email], .form textarea {
     display: block;
 }
-.form [type=text], .form [type=tel], .form [type=email], .form select {
+.form [type=text], .form [type=tel], .form [type=email], .form select, .form text area {
     border: solid 1px #ded1c1;
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: "Moderustic", sans-serif;
     font-weight: 200;
 }
 
@@ -189,7 +189,9 @@ div.gallery figcaption {
     color: white;
     margin: 1rem 0 0 1vw;
 }
-
+.form textarea {
+    height: 6rem;
+}
 /* Footer Stuff */
 footer {
     background-color: #efdfcc;
