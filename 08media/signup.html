@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Goodflicks">
+        <meta name="author" content="Cora Holman">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Goodflicks: Home</title>
+        <link rel="stylesheet" href="goodflicks.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start of the page header-->
+        <header>
+            <h1>Goodflicks</h1>
+            <p><strong>Goodreads for movies</strong></p>
+        </header>
+        <!-- Start of the page navigator-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">My Movies</a></li>
+                <li><a href="moviepics.html">Gallery</a></li>
+                <li class="active"><a href="signup.html">Sign-Up</a></li>
+                <li><a href="info.html">Movie info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content-->
+        <main>
+            <h2>Sign-Up</h2>
+            <form method="get" class="form" action="thanks.html">
+
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label>First Name*<input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                    <label>Email*<input type="email" name="email" required placeholder="example@gmail.com"></label>
+                    <label>Phone Number*<input type="tel" name="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick Favorite Genres</legend>
+                    <label><input type="checkbox" name="horror" value="clicked">Horror</label>
+                    <label><input type="checkbox" name="comedy" value="clicked">Comedy</label>
+                    <label><input type="checkbox" name="action" value="clicked">Action</label>
+                    <label><input type="checkbox" name="romance" value="clicked">Romance</label>
+                    <label><input type="checkbox" name="drama" value="clicked">Drama</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label>
+                        <input type="radio" name="method" value="man"> Man
+                    </label>
+                    <label>
+                        <input type="radio" name="method" value="woman"> Woman
+                    </label>
+                    <label>
+                        <input type="radio" name="method" value="other"> Other
+                    </label>
+                    <label>Preferred Pronouns
+                        <select name="pronouns">
+                            <option value="none">Please Select</option>
+                            <option value="he/him">He/Him</option>
+                            <option value="she/her">She/Her</option>
+                            <option value="they/them">They/Them</option>
+                        </select>
+                    </label>
+                </fieldset>
+            <input type="submit" value="Sign-up">
+            </form>
+        </main>
+        <!-- Start of the page footer-->
+        <footer>
+            <p>&copy; 2024 &bull; Cora Holman &bull; <a href="mailto:corasupers@gmail.com">Email US</a> </p>
+        </footer>
+    </body>
+</html>
